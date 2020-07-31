@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="5" failed="0" ignored="0" total="15" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="LiveGuru" duration-ms="66022" started-at="2020-07-28T09:24:46Z" finished-at="2020-07-28T09:25:52Z">
+    <groups>
+    </groups>
+    <test name="RUN ON FIREFOX" duration-ms="39424" started-at="2020-07-28T09:24:46Z" finished-at="2020-07-28T09:25:25Z">
+      <class name="com.liveguru.user.User_01_Register_to_System_Multi_Browser">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.liveguru.user.User_01_Register_to_System_Multi_Browser@548a9f61]" name="beforeClass" is-config="true" duration-ms="7786" started-at="2020-07-28T09:24:46Z" finished-at="2020-07-28T09:24:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://live.demoguru99.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.liveguru.user.User_01_Register_to_System_Multi_Browser@548a9f61]" name="beforeMethod" is-config="true" duration-ms="4631" started-at="2020-07-28T09:24:54Z" finished-at="2020-07-28T09:24:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Register_01_Empty_Data()[pri:0, instance:com.liveguru.user.User_01_Register_to_System_Multi_Browser@548a9f61]" name="Register_01_Empty_Data" duration-ms="763" started-at="2020-07-28T09:24:58Z" finished-at="2020-07-28T09:24:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register_01_Empty_Data -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.liveguru.user.User_01_Register_to_System_Multi_Browser@548a9f61]" name="beforeMethod" is-config="true" duration-ms="5206" started-at="2020-07-28T09:24:59Z" finished-at="2020-07-28T09:25:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Register_02_Invalid_Email()[pri:0, instance:com.liveguru.user.User_01_Register_to_System_Multi_Browser@548a9f61]" name="Register_02_Invalid_Email" duration-ms="526" started-at="2020-07-28T09:25:04Z" finished-at="2020-07-28T09:25:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register_02_Invalid_Email -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.liveguru.user.User_01_Register_to_System_Multi_Browser@548a9f61]" name="beforeMethod" is-config="true" duration-ms="4995" started-at="2020-07-28T09:25:05Z" finished-at="2020-07-28T09:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Register_03_Password_Less_Than_6_Chars()[pri:0, instance:com.liveguru.user.User_01_Register_to_System_Multi_Browser@548a9f61]" name="Register_03_Password_Less_Than_6_Chars" duration-ms="568" started-at="2020-07-28T09:25:10Z" finished-at="2020-07-28T09:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register_03_Password_Less_Than_6_Chars -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.liveguru.user.User_01_Register_to_System_Multi_Browser@548a9f61]" name="beforeMethod" is-config="true" duration-ms="5096" started-at="2020-07-28T09:25:10Z" finished-at="2020-07-28T09:25:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Register_04_Confirm_Password_Not_Matching_Password()[pri:0, instance:com.liveguru.user.User_01_Register_to_System_Multi_Browser@548a9f61]" name="Register_04_Confirm_Password_Not_Matching_Password" duration-ms="643" started-at="2020-07-28T09:25:15Z" finished-at="2020-07-28T09:25:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register_04_Confirm_Password_Not_Matching_Password -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.liveguru.user.User_01_Register_to_System_Multi_Browser@548a9f61]" name="beforeMethod" is-config="true" duration-ms="5241" started-at="2020-07-28T09:25:16Z" finished-at="2020-07-28T09:25:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Register_05_Valid_Data()[pri:0, instance:com.liveguru.user.User_01_Register_to_System_Multi_Browser@548a9f61]" name="Register_05_Valid_Data" duration-ms="3293" started-at="2020-07-28T09:25:21Z" finished-at="2020-07-28T09:25:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register_05_Valid_Data -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.liveguru.user.User_01_Register_to_System_Multi_Browser@548a9f61]" name="afterClass" is-config="true" duration-ms="657" started-at="2020-07-28T09:25:25Z" finished-at="2020-07-28T09:25:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.liveguru.user.User_01_Register_to_System_Multi_Browser -->
+    </test> <!-- RUN ON FIREFOX -->
+    <test name="RUN ON CHROME" duration-ms="26554" started-at="2020-07-28T09:25:25Z" finished-at="2020-07-28T09:25:52Z">
+      <class name="com.liveguru.user.User_01_Register_to_System_Multi_Browser">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.liveguru.user.User_01_Register_to_System_Multi_Browser@5b275dab]" name="beforeClass" is-config="true" duration-ms="8208" started-at="2020-07-28T09:25:25Z" finished-at="2020-07-28T09:25:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://live.demoguru99.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.liveguru.user.User_01_Register_to_System_Multi_Browser@5b275dab]" name="beforeMethod" is-config="true" duration-ms="2614" started-at="2020-07-28T09:25:34Z" finished-at="2020-07-28T09:25:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Register_01_Empty_Data()[pri:0, instance:com.liveguru.user.User_01_Register_to_System_Multi_Browser@5b275dab]" name="Register_01_Empty_Data" duration-ms="610" started-at="2020-07-28T09:25:36Z" finished-at="2020-07-28T09:25:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register_01_Empty_Data -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.liveguru.user.User_01_Register_to_System_Multi_Browser@5b275dab]" name="beforeMethod" is-config="true" duration-ms="2648" started-at="2020-07-28T09:25:37Z" finished-at="2020-07-28T09:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Register_02_Invalid_Email()[pri:0, instance:com.liveguru.user.User_01_Register_to_System_Multi_Browser@5b275dab]" name="Register_02_Invalid_Email" duration-ms="419" started-at="2020-07-28T09:25:39Z" finished-at="2020-07-28T09:25:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register_02_Invalid_Email -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.liveguru.user.User_01_Register_to_System_Multi_Browser@5b275dab]" name="beforeMethod" is-config="true" duration-ms="2531" started-at="2020-07-28T09:25:40Z" finished-at="2020-07-28T09:25:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Register_03_Password_Less_Than_6_Chars()[pri:0, instance:com.liveguru.user.User_01_Register_to_System_Multi_Browser@5b275dab]" name="Register_03_Password_Less_Than_6_Chars" duration-ms="412" started-at="2020-07-28T09:25:42Z" finished-at="2020-07-28T09:25:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register_03_Password_Less_Than_6_Chars -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.liveguru.user.User_01_Register_to_System_Multi_Browser@5b275dab]" name="beforeMethod" is-config="true" duration-ms="2639" started-at="2020-07-28T09:25:43Z" finished-at="2020-07-28T09:25:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Register_04_Confirm_Password_Not_Matching_Password()[pri:0, instance:com.liveguru.user.User_01_Register_to_System_Multi_Browser@5b275dab]" name="Register_04_Confirm_Password_Not_Matching_Password" duration-ms="626" started-at="2020-07-28T09:25:45Z" finished-at="2020-07-28T09:25:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register_04_Confirm_Password_Not_Matching_Password -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.liveguru.user.User_01_Register_to_System_Multi_Browser@5b275dab]" name="beforeMethod" is-config="true" duration-ms="2639" started-at="2020-07-28T09:25:46Z" finished-at="2020-07-28T09:25:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Register_05_Valid_Data()[pri:0, instance:com.liveguru.user.User_01_Register_to_System_Multi_Browser@5b275dab]" name="Register_05_Valid_Data" duration-ms="2552" started-at="2020-07-28T09:25:49Z" finished-at="2020-07-28T09:25:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register_05_Valid_Data -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.liveguru.user.User_01_Register_to_System_Multi_Browser@5b275dab]" name="afterClass" is-config="true" duration-ms="651" started-at="2020-07-28T09:25:51Z" finished-at="2020-07-28T09:25:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.liveguru.user.User_01_Register_to_System_Multi_Browser -->
+    </test> <!-- RUN ON CHROME -->
+    <test name="RUN ON COCCOC" duration-ms="16" started-at="2020-07-28T09:25:52Z" finished-at="2020-07-28T09:25:52Z">
+      <class name="com.liveguru.user.User_01_Register_to_System_Multi_Browser">
+        <test-method status="FAIL" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.liveguru.user.User_01_Register_to_System_Multi_Browser@68c4039c]" name="beforeClass" is-config="true" duration-ms="0" started-at="2020-07-28T09:25:52Z" finished-at="2020-07-28T09:25:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Coccoc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://live.demoguru99.com]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[No enum constant commons.Browser.COCCOC]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: No enum constant commons.Browser.COCCOC
+at java.lang.Enum.valueOf(Unknown Source)
+at commons.Browser.valueOf(Browser.java:1)
+at commons.AbstractTest.openMultiBrowser(AbstractTest.java:38)
+at com.liveguru.user.User_01_Register_to_System_Multi_Browser.beforeClass(User_01_Register_to_System_Multi_Browser.java:32)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:com.liveguru.user.User_01_Register_to_System_Multi_Browser@68c4039c]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-07-28T09:25:52Z" finished-at="2020-07-28T09:25:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="Register_01_Empty_Data()[pri:0, instance:com.liveguru.user.User_01_Register_to_System_Multi_Browser@68c4039c]" name="Register_01_Empty_Data" duration-ms="0" started-at="2020-07-28T09:25:52Z" finished-at="2020-07-28T09:25:52Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[No enum constant commons.Browser.COCCOC]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: No enum constant commons.Browser.COCCOC
+at java.lang.Enum.valueOf(Unknown Source)
+at commons.Browser.valueOf(Browser.java:1)
+at commons.AbstractTest.openMultiBrowser(AbstractTest.java:38)
+at com.liveguru.user.User_01_Register_to_System_Multi_Browser.beforeClass(User_01_Register_to_System_Multi_Browser.java:32)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register_01_Empty_Data -->
+        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:com.liveguru.user.User_01_Register_to_System_Multi_Browser@68c4039c]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-07-28T09:25:52Z" finished-at="2020-07-28T09:25:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="Register_02_Invalid_Email()[pri:0, instance:com.liveguru.user.User_01_Register_to_System_Multi_Browser@68c4039c]" name="Register_02_Invalid_Email" duration-ms="0" started-at="2020-07-28T09:25:52Z" finished-at="2020-07-28T09:25:52Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[No enum constant commons.Browser.COCCOC]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: No enum constant commons.Browser.COCCOC
+at java.lang.Enum.valueOf(Unknown Source)
+at commons.Browser.valueOf(Browser.java:1)
+at commons.AbstractTest.openMultiBrowser(AbstractTest.java:38)
+at com.liveguru.user.User_01_Register_to_System_Multi_Browser.beforeClass(User_01_Register_to_System_Multi_Browser.java:32)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register_02_Invalid_Email -->
+        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:com.liveguru.user.User_01_Register_to_System_Multi_Browser@68c4039c]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-07-28T09:25:52Z" finished-at="2020-07-28T09:25:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="Register_03_Password_Less_Than_6_Chars()[pri:0, instance:com.liveguru.user.User_01_Register_to_System_Multi_Browser@68c4039c]" name="Register_03_Password_Less_Than_6_Chars" duration-ms="0" started-at="2020-07-28T09:25:52Z" finished-at="2020-07-28T09:25:52Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[No enum constant commons.Browser.COCCOC]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: No enum constant commons.Browser.COCCOC
+at java.lang.Enum.valueOf(Unknown Source)
+at commons.Browser.valueOf(Browser.java:1)
+at commons.AbstractTest.openMultiBrowser(AbstractTest.java:38)
+at com.liveguru.user.User_01_Register_to_System_Multi_Browser.beforeClass(User_01_Register_to_System_Multi_Browser.java:32)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register_03_Password_Less_Than_6_Chars -->
+        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:com.liveguru.user.User_01_Register_to_System_Multi_Browser@68c4039c]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-07-28T09:25:52Z" finished-at="2020-07-28T09:25:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="Register_04_Confirm_Password_Not_Matching_Password()[pri:0, instance:com.liveguru.user.User_01_Register_to_System_Multi_Browser@68c4039c]" name="Register_04_Confirm_Password_Not_Matching_Password" duration-ms="0" started-at="2020-07-28T09:25:52Z" finished-at="2020-07-28T09:25:52Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[No enum constant commons.Browser.COCCOC]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: No enum constant commons.Browser.COCCOC
+at java.lang.Enum.valueOf(Unknown Source)
+at commons.Browser.valueOf(Browser.java:1)
+at commons.AbstractTest.openMultiBrowser(AbstractTest.java:38)
+at com.liveguru.user.User_01_Register_to_System_Multi_Browser.beforeClass(User_01_Register_to_System_Multi_Browser.java:32)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register_04_Confirm_Password_Not_Matching_Password -->
+        <test-method status="SKIP" signature="beforeMethod()[pri:0, instance:com.liveguru.user.User_01_Register_to_System_Multi_Browser@68c4039c]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-07-28T09:25:52Z" finished-at="2020-07-28T09:25:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="Register_05_Valid_Data()[pri:0, instance:com.liveguru.user.User_01_Register_to_System_Multi_Browser@68c4039c]" name="Register_05_Valid_Data" duration-ms="0" started-at="2020-07-28T09:25:52Z" finished-at="2020-07-28T09:25:52Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[No enum constant commons.Browser.COCCOC]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: No enum constant commons.Browser.COCCOC
+at java.lang.Enum.valueOf(Unknown Source)
+at commons.Browser.valueOf(Browser.java:1)
+at commons.AbstractTest.openMultiBrowser(AbstractTest.java:38)
+at com.liveguru.user.User_01_Register_to_System_Multi_Browser.beforeClass(User_01_Register_to_System_Multi_Browser.java:32)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register_05_Valid_Data -->
+        <test-method status="SKIP" signature="afterClass()[pri:0, instance:com.liveguru.user.User_01_Register_to_System_Multi_Browser@68c4039c]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-07-28T09:25:52Z" finished-at="2020-07-28T09:25:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.liveguru.user.User_01_Register_to_System_Multi_Browser -->
+    </test> <!-- RUN ON COCCOC -->
+  </suite> <!-- LiveGuru -->
+</testng-results>

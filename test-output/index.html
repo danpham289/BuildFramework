@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-LiveGuru">
+              <span class="suite-name border-skipped">LiveGuru</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-LiveGuru">
+                    <span>D:\Automation Testing\Selenium\Workspace\hybrid-liveguru-framework\resources\runLiveGuruTestcases.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-LiveGuru">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-LiveGuru">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-LiveGuru">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-LiveGuru">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-LiveGuru">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-LiveGuru">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">15 methods,  5 skipped,  10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-LiveGuru" class="hide-methods skipped suite-LiveGuru"> (hide)</a> <!-- hide-methods skipped suite-LiveGuru -->
+                      <a href="#" panel-name="suite-LiveGuru" class="show-methods skipped suite-LiveGuru"> (show)</a> <!-- show-methods skipped suite-LiveGuru -->
+                    </span>
+                    <div class="method-list-content skipped suite-LiveGuru">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LiveGuru" title="com.liveguru.user.User_01_Register_to_System_Multi_Browser" hash-for-method="Register_01_Empty_Data">Register_01_Empty_Data</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LiveGuru" title="com.liveguru.user.User_01_Register_to_System_Multi_Browser" hash-for-method="Register_02_Invalid_Email">Register_02_Invalid_Email</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LiveGuru" title="com.liveguru.user.User_01_Register_to_System_Multi_Browser" hash-for-method="Register_03_Password_Less_Than_6_Chars">Register_03_Password_Less_Than_6_Chars</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LiveGuru" title="com.liveguru.user.User_01_Register_to_System_Multi_Browser" hash-for-method="Register_04_Confirm_Password_Not_Matching_Password">Register_04_Confirm_Password_Not_Matching_Password</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LiveGuru" title="com.liveguru.user.User_01_Register_to_System_Multi_Browser" hash-for-method="Register_05_Valid_Data">Register_05_Valid_Data</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-LiveGuru -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-LiveGuru" class="hide-methods passed suite-LiveGuru"> (hide)</a> <!-- hide-methods passed suite-LiveGuru -->
+                      <a href="#" panel-name="suite-LiveGuru" class="show-methods passed suite-LiveGuru"> (show)</a> <!-- show-methods passed suite-LiveGuru -->
+                    </span>
+                    <div class="method-list-content passed suite-LiveGuru">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LiveGuru" title="com.liveguru.user.User_01_Register_to_System_Multi_Browser" hash-for-method="Register_01_Empty_Data">Register_01_Empty_Data</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LiveGuru" title="com.liveguru.user.User_01_Register_to_System_Multi_Browser" hash-for-method="Register_01_Empty_Data">Register_01_Empty_Data</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LiveGuru" title="com.liveguru.user.User_01_Register_to_System_Multi_Browser" hash-for-method="Register_02_Invalid_Email">Register_02_Invalid_Email</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LiveGuru" title="com.liveguru.user.User_01_Register_to_System_Multi_Browser" hash-for-method="Register_02_Invalid_Email">Register_02_Invalid_Email</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LiveGuru" title="com.liveguru.user.User_01_Register_to_System_Multi_Browser" hash-for-method="Register_03_Password_Less_Than_6_Chars">Register_03_Password_Less_Than_6_Chars</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LiveGuru" title="com.liveguru.user.User_01_Register_to_System_Multi_Browser" hash-for-method="Register_03_Password_Less_Than_6_Chars">Register_03_Password_Less_Than_6_Chars</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LiveGuru" title="com.liveguru.user.User_01_Register_to_System_Multi_Browser" hash-for-method="Register_04_Confirm_Password_Not_Matching_Password">Register_04_Confirm_Password_Not_Matching_Password</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LiveGuru" title="com.liveguru.user.User_01_Register_to_System_Multi_Browser" hash-for-method="Register_04_Confirm_Password_Not_Matching_Password">Register_04_Confirm_Password_Not_Matching_Password</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LiveGuru" title="com.liveguru.user.User_01_Register_to_System_Multi_Browser" hash-for-method="Register_05_Valid_Data">Register_05_Valid_Data</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LiveGuru" title="com.liveguru.user.User_01_Register_to_System_Multi_Browser" hash-for-method="Register_05_Valid_Data">Register_05_Valid_Data</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-LiveGuru -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-LiveGuru" class="panel LiveGuru">
+          <div class="suite-LiveGuru-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.liveguru.user.User_01_Register_to_System_Multi_Browser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Register_01_Empty_Data">
+                  </a> <!-- Register_01_Empty_Data -->
+                  <span class="method-name">Register_01_Empty_Data</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: No enum constant commons.Browser.COCCOC
+	at java.lang.Enum.valueOf(Unknown Source)
+	at commons.Browser.valueOf(Browser.java:1)
+	at commons.AbstractTest.openMultiBrowser(AbstractTest.java:38)
+	at com.liveguru.user.User_01_Register_to_System_Multi_Browser.beforeClass(User_01_Register_to_System_Multi_Browser.java:32)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Register_02_Invalid_Email">
+                  </a> <!-- Register_02_Invalid_Email -->
+                  <span class="method-name">Register_02_Invalid_Email</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: No enum constant commons.Browser.COCCOC
+	at java.lang.Enum.valueOf(Unknown Source)
+	at commons.Browser.valueOf(Browser.java:1)
+	at commons.AbstractTest.openMultiBrowser(AbstractTest.java:38)
+	at com.liveguru.user.User_01_Register_to_System_Multi_Browser.beforeClass(User_01_Register_to_System_Multi_Browser.java:32)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Register_03_Password_Less_Than_6_Chars">
+                  </a> <!-- Register_03_Password_Less_Than_6_Chars -->
+                  <span class="method-name">Register_03_Password_Less_Than_6_Chars</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: No enum constant commons.Browser.COCCOC
+	at java.lang.Enum.valueOf(Unknown Source)
+	at commons.Browser.valueOf(Browser.java:1)
+	at commons.AbstractTest.openMultiBrowser(AbstractTest.java:38)
+	at com.liveguru.user.User_01_Register_to_System_Multi_Browser.beforeClass(User_01_Register_to_System_Multi_Browser.java:32)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Register_04_Confirm_Password_Not_Matching_Password">
+                  </a> <!-- Register_04_Confirm_Password_Not_Matching_Password -->
+                  <span class="method-name">Register_04_Confirm_Password_Not_Matching_Password</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: No enum constant commons.Browser.COCCOC
+	at java.lang.Enum.valueOf(Unknown Source)
+	at commons.Browser.valueOf(Browser.java:1)
+	at commons.AbstractTest.openMultiBrowser(AbstractTest.java:38)
+	at com.liveguru.user.User_01_Register_to_System_Multi_Browser.beforeClass(User_01_Register_to_System_Multi_Browser.java:32)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Register_05_Valid_Data">
+                  </a> <!-- Register_05_Valid_Data -->
+                  <span class="method-name">Register_05_Valid_Data</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: No enum constant commons.Browser.COCCOC
+	at java.lang.Enum.valueOf(Unknown Source)
+	at commons.Browser.valueOf(Browser.java:1)
+	at commons.AbstractTest.openMultiBrowser(AbstractTest.java:38)
+	at com.liveguru.user.User_01_Register_to_System_Multi_Browser.beforeClass(User_01_Register_to_System_Multi_Browser.java:32)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LiveGuru-class-skipped -->
+          <div class="suite-LiveGuru-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.liveguru.user.User_01_Register_to_System_Multi_Browser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Register_01_Empty_Data">
+                  </a> <!-- Register_01_Empty_Data -->
+                  <span class="method-name">Register_01_Empty_Data</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Register_01_Empty_Data">
+                  </a> <!-- Register_01_Empty_Data -->
+                  <span class="method-name">Register_01_Empty_Data</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Register_02_Invalid_Email">
+                  </a> <!-- Register_02_Invalid_Email -->
+                  <span class="method-name">Register_02_Invalid_Email</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Register_02_Invalid_Email">
+                  </a> <!-- Register_02_Invalid_Email -->
+                  <span class="method-name">Register_02_Invalid_Email</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Register_03_Password_Less_Than_6_Chars">
+                  </a> <!-- Register_03_Password_Less_Than_6_Chars -->
+                  <span class="method-name">Register_03_Password_Less_Than_6_Chars</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Register_03_Password_Less_Than_6_Chars">
+                  </a> <!-- Register_03_Password_Less_Than_6_Chars -->
+                  <span class="method-name">Register_03_Password_Less_Than_6_Chars</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Register_04_Confirm_Password_Not_Matching_Password">
+                  </a> <!-- Register_04_Confirm_Password_Not_Matching_Password -->
+                  <span class="method-name">Register_04_Confirm_Password_Not_Matching_Password</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Register_04_Confirm_Password_Not_Matching_Password">
+                  </a> <!-- Register_04_Confirm_Password_Not_Matching_Password -->
+                  <span class="method-name">Register_04_Confirm_Password_Not_Matching_Password</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Register_05_Valid_Data">
+                  </a> <!-- Register_05_Valid_Data -->
+                  <span class="method-name">Register_05_Valid_Data</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Register_05_Valid_Data">
+                  </a> <!-- Register_05_Valid_Data -->
+                  <span class="method-name">Register_05_Valid_Data</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LiveGuru-class-passed -->
+        </div> <!-- panel LiveGuru -->
+        <div panel-name="test-xml-LiveGuru" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Automation Testing\Selenium\Workspace\hybrid-liveguru-framework\resources\runLiveGuruTestcases.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;LiveGuru&quot;&gt;
+  &lt;parameter name=&quot;url&quot; value=&quot;http://live.demoguru99.com&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;RUN ON FIREFOX&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.liveguru.user.User_01_Register_to_System_Multi_Browser&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- RUN ON FIREFOX --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;RUN ON CHROME&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.liveguru.user.User_01_Register_to_System_Multi_Browser&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- RUN ON CHROME --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;RUN ON COCCOC&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Coccoc&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.liveguru.user.User_01_Register_to_System_Multi_Browser&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- RUN ON COCCOC --&gt;
+&lt;/suite&gt; &lt;!-- LiveGuru --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-LiveGuru" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for LiveGuru</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">RUN ON FIREFOX (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">RUN ON CHROME (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">RUN ON COCCOC (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-LiveGuru" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for LiveGuru</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-LiveGuru" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for LiveGuru</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_LiveGuru');
+function tableData_LiveGuru() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(15);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Register_05_Valid_Data')
+data.setCell(0, 2, 'com.liveguru.user.User_01_Register_to_System_Multi_Browser')
+data.setCell(0, 3, 3293);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Register_05_Valid_Data')
+data.setCell(1, 2, 'com.liveguru.user.User_01_Register_to_System_Multi_Browser')
+data.setCell(1, 3, 2552);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Register_01_Empty_Data')
+data.setCell(2, 2, 'com.liveguru.user.User_01_Register_to_System_Multi_Browser')
+data.setCell(2, 3, 763);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Register_04_Confirm_Password_Not_Matching_Password')
+data.setCell(3, 2, 'com.liveguru.user.User_01_Register_to_System_Multi_Browser')
+data.setCell(3, 3, 643);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Register_04_Confirm_Password_Not_Matching_Password')
+data.setCell(4, 2, 'com.liveguru.user.User_01_Register_to_System_Multi_Browser')
+data.setCell(4, 3, 626);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Register_01_Empty_Data')
+data.setCell(5, 2, 'com.liveguru.user.User_01_Register_to_System_Multi_Browser')
+data.setCell(5, 3, 610);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Register_03_Password_Less_Than_6_Chars')
+data.setCell(6, 2, 'com.liveguru.user.User_01_Register_to_System_Multi_Browser')
+data.setCell(6, 3, 568);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Register_02_Invalid_Email')
+data.setCell(7, 2, 'com.liveguru.user.User_01_Register_to_System_Multi_Browser')
+data.setCell(7, 3, 526);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Register_02_Invalid_Email')
+data.setCell(8, 2, 'com.liveguru.user.User_01_Register_to_System_Multi_Browser')
+data.setCell(8, 3, 419);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Register_03_Password_Less_Than_6_Chars')
+data.setCell(9, 2, 'com.liveguru.user.User_01_Register_to_System_Multi_Browser')
+data.setCell(9, 3, 412);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Register_01_Empty_Data')
+data.setCell(10, 2, 'com.liveguru.user.User_01_Register_to_System_Multi_Browser')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Register_02_Invalid_Email')
+data.setCell(11, 2, 'com.liveguru.user.User_01_Register_to_System_Multi_Browser')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Register_05_Valid_Data')
+data.setCell(12, 2, 'com.liveguru.user.User_01_Register_to_System_Multi_Browser')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Register_03_Password_Less_Than_6_Chars')
+data.setCell(13, 2, 'com.liveguru.user.User_01_Register_to_System_Multi_Browser')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'Register_04_Confirm_Password_Not_Matching_Password')
+data.setCell(14, 2, 'com.liveguru.user.User_01_Register_to_System_Multi_Browser')
+data.setCell(14, 3, 0);
+window.suiteTableData['LiveGuru']= { tableData: data, tableDiv: 'times-div-LiveGuru'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <div id="times-div-LiveGuru">
+              </div> <!-- times-div-LiveGuru -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-LiveGuru" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for LiveGuru</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-LiveGuru" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-LiveGuru" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.liveguru.user.User_01_Register_to_System_Multi_Browser</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(Firefox, http://live.demoguru99.com)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">7790 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Register_01_Empty_Data</span>
+                <span class="method-start">12421 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">13186 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Register_02_Invalid_Email</span>
+                <span class="method-start">18392 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">18919 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Register_03_Password_Less_Than_6_Chars</span>
+                <span class="method-start">23914 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">24483 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Register_04_Confirm_Password_Not_Matching_Password</span>
+                <span class="method-start">29579 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">30223 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Register_05_Valid_Data</span>
+                <span class="method-start">35464 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">38758 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(Chrome, http://live.demoguru99.com)</span>
+                <span class="method-start">39439 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">47648 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Register_01_Empty_Data</span>
+                <span class="method-start">50262 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">50873 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Register_02_Invalid_Email</span>
+                <span class="method-start">53521 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">53941 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Register_03_Password_Less_Than_6_Chars</span>
+                <span class="method-start">56472 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">56884 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Register_04_Confirm_Password_Not_Matching_Password</span>
+                <span class="method-start">59523 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">60149 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Register_05_Valid_Data</span>
+                <span class="method-start">62788 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">65341 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">beforeClass(Coccoc, http://live.demoguru99.com)</span>
+                <span class="method-start">66000 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Register_01_Empty_Data</span>
+                <span class="method-start">-1595928286400 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Register_02_Invalid_Email</span>
+                <span class="method-start">-1595928286400 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Register_03_Password_Less_Than_6_Chars</span>
+                <span class="method-start">-1595928286400 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Register_04_Confirm_Password_Not_Matching_Password</span>
+                <span class="method-start">-1595928286400 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Register_05_Valid_Data</span>
+                <span class="method-start">-1595928286400 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
